@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: local
+  liquibase:
+    change-log: classpath:/liquibase/changelog.mysql.xml
+server:
+  servlet:
+    context-path: /api
+  compression:
+    enabled: true
+    mime-types: application/json
+    min-response-size: 1024
+  tomcat:
+    connection-timeout: 30
+  port: 7777
+logging:
+  file:
+    path: /opt/broadcasting-manage/logs/broadcasting-manage.log
+
+  level:
+    #    root: DEBUG
+    com.broadcastingmanage: INFO
+
