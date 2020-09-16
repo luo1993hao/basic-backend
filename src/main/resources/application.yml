@@ -21,3 +21,10 @@ logging:
     #    root: DEBUG
     com.broadcastingmanage: INFO
 
+## aliyun oss
+aliyun:
+  oss:
+    endpoint:
+    bucketName:
+    accessKeyId:
+    accessKeySecret:
