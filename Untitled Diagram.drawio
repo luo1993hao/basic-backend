@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T12:37:35.504Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.1" etag="iqThQxrhHSFlXyIszAqa" type="github"><diagram id="StH0wkckMkxhpQow-PBw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-17T13:30:06.332Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XRU2Jh8OQLplzJEP-jW1" version="20.5.1" type="github">
+  <diagram id="StH0wkckMkxhpQow-PBw" name="Page-1">
+    <mxGraphModel dx="1773" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-1" value="configuration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-2" value="InterceptorChain" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-3" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="100" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="100" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="110" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.2;entryY=0.163;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="L_R-7rLlhxFEBn_i-TRY-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="150" as="sourcePoint" />
+            <mxPoint x="440" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-10" value="2.Configuration.newExecutor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-11" value="1.执db操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.05;entryY=0.377;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="L_R-7rLlhxFEBn_i-TRY-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="187" y="220" as="sourcePoint" />
+            <mxPoint x="353" y="222.15999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-13" value="&lt;span style=&quot;&quot;&gt;3.InterceptorChain.pluginAll&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-14" value="Interceptor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="90" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="230" as="sourcePoint" />
+            <mxPoint x="620" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-17" value="4.for循环调用&lt;br&gt;&amp;nbsp;interceptor.plugin(target)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="190" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-18" value="Plugin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-19" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="90" width="20" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-20" value="&lt;div&gt;5.使用jdk动态代理Proxy.newProxyInstance&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;以此来实现方法拦截和增强功能&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="260" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L_R-7rLlhxFEBn_i-TRY-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="L_R-7rLlhxFEBn_i-TRY-15" target="L_R-7rLlhxFEBn_i-TRY-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
